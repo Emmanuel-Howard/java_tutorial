@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args){
 
@@ -51,6 +53,45 @@ public class Main {
 
         System.out.print("Hello " + name);
 */
+
+// USER INPUT
+/*
+        // Scanner class
+        // 1. Import the Scanner class
+        // 2. Create a Scanner object
+        // 3. Use the Scanner object to get input
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+        System.out.println("Hello " + name);
+
+        System.out.print("Enter your age:");
+        int age = scanner.nextInt();
+        System.out.println("You are " + age + " years old");
+
+        System.out.print("What is your GPA?");
+        double gpa = scanner.nextDouble();
+        System.out.println("You're GPA is: " + gpa);
+
+        System.out.println("Are you a student? (true/false)");
+        boolean isStudent = scanner.nextBoolean();
+        if(isStudent){
+                System.out.println(name + " is a student");
+        }
+        else{
+                System.out.println(name + " is not a student");
+        }
+
+
+        scanner.close(); // Good practice to close it at program end
+
+*/
+
+
+
+
 
 
 
