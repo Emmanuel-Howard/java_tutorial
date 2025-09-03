@@ -104,11 +104,23 @@ public class Main {
 
         scanner.close();
 */
+// Shopping Cart
+/*
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Wat item would you like to buy?: ");
+        String item = scanner.nextLine();
+        System.out.print("What is the price of each?: ");
+        double price = scanner.nextDouble();
+        System.out.print("How many would you like?: ");
+        int quantity = scanner.nextInt();
+        System.out.println();
 
+        System.out.print("You have bought " + quantity + " " + item + "/s\n");
+        System.out.print("Your total is $" + (price * quantity));
 
-
-
+        scanner.close();
+*/
 
     }
 }
