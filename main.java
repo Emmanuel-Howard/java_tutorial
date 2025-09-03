@@ -88,7 +88,22 @@ public class Main {
         scanner.close(); // Good practice to close it at program end
 
 */
+// RECTANGLE EXAMPLE
+/*
+        Scanner scanner = new Scanner (System.in);
 
+        System.out.println("WELCOME!");
+        System.out.println("Let's calculate a rectangle's area\n");
+
+        System.out.print("Enter the rectangle's length:");
+        double length = scanner.nextDouble();
+        System.out.print("Enter the rectangle's width:");
+        double width = scanner.nextDouble();
+
+        System.out.print("With a length of " + length + " and a width of " + width + ", the total area is: " + (length * width));
+
+        scanner.close();
+*/
 
 
 
