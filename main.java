@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args){
@@ -88,7 +89,7 @@ public class Main {
         scanner.close(); // Good practice to close it at program end
 
 */
-// RECTANGLE EXAMPLE
+// RECTANGLE AREA EXERCISE
 /*
         Scanner scanner = new Scanner (System.in);
 
@@ -104,11 +105,11 @@ public class Main {
 
         scanner.close();
 */
-// Shopping Cart
+// SHOPPING CART EXERCISE
 /*
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Wat item would you like to buy?: ");
+        System.out.print("What item would you like to buy?: ");
         String item = scanner.nextLine();
         System.out.print("What is the price of each?: ");
         double price = scanner.nextDouble();
@@ -121,6 +122,14 @@ public class Main {
 
         scanner.close();
 */
+
+// RANDOM NUMBER GENERATOR
+       Random random = new Random();
+
+       int number;
+       number = random.nextInt(1, 7);
+
+       System.out.print(number);
 
     }
 }
