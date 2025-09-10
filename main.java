@@ -124,12 +124,47 @@ public class Main {
 */
 
 // RANDOM NUMBER GENERATOR
+/*
        Random random = new Random();
 
        int number;
        number = random.nextInt(1, 7);
 
        System.out.print(number);
+*/
+
+/* NESTED IF STATEMENTS */
+/*
+boolean isStudent = false;
+boolean isSenior = true;
+double price = 9.99;
+
+if(isStudent){
+        if(isSenior){
+                System.out.print("You get a senior discount of 20%");
+                System.out.println("You get a student discount! of 10%");
+                price *= 0.7;
+        }
+        else{
+                System.out.println("You get a student discount! of 10%");
+                price *= 0.9;
+        }
+}
+else{
+        if(isSenior){
+                System.out.println("You get a senior discount of 20%");
+                price *= 0.8;
+        }
+        else{
+                System.out.println("You don't get any discount");
+                price = price;
+        }
+}
+
+System.out.printf("The price is $%.2f" , price);
+*/
+
+// 
 
     }
 }
