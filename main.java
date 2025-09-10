@@ -134,37 +134,51 @@ public class Main {
 */
 
 /* NESTED IF STATEMENTS */
-/*
-boolean isStudent = false;
-boolean isSenior = true;
-double price = 9.99;
+        /*
+        boolean isStudent = false;
+        boolean isSenior = true;
+        double price = 9.99;
 
-if(isStudent){
-        if(isSenior){
-                System.out.print("You get a senior discount of 20%");
-                System.out.println("You get a student discount! of 10%");
-                price *= 0.7;
+        if(isStudent){
+                if(isSenior){
+                        System.out.print("You get a senior discount of 20%");
+                        System.out.println("You get a student discount! of 10%");
+                        price *= 0.7;
+                }
+                else{
+                        System.out.println("You get a student discount! of 10%");
+                        price *= 0.9;
+                }
         }
         else{
-                System.out.println("You get a student discount! of 10%");
-                price *= 0.9;
+                if(isSenior){
+                        System.out.println("You get a senior discount of 20%");
+                        price *= 0.8;
+                }
+                else{
+                        System.out.println("You don't get any discount");
+                        price = price;
+                }
         }
-}
-else{
-        if(isSenior){
-                System.out.println("You get a senior discount of 20%");
-                price *= 0.8;
-        }
-        else{
-                System.out.println("You don't get any discount");
-                price = price;
-        }
-}
 
 System.out.printf("The price is $%.2f" , price);
 */
 
-// 
+// STRING METHODS
+/* 
+        String name = "Bro Code";
+
+        int length = name.length();
+        char letter = name.charAt(0);
+        int index = name.indexOf("m");
+
+        name = name.toUpperCase();
+        name = name.toLowerCase();
+        name = name.trim();
+
+        System.out.println(name);
+*/
+
 
     }
 }
